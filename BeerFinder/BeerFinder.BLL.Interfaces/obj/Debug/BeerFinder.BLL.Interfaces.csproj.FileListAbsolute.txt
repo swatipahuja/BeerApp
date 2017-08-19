@@ -1,0 +1,8 @@
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.BLL.Interfaces.dll
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.BLL.Interfaces.pdb
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.csprojResolveAssemblyReference.cache
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.csproj.CoreCompileInputs.cache
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.dll
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.pdb
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.Shared.dll
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.Shared.pdb

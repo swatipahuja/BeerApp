@@ -1,0 +1,7 @@
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service\bin\Debug\BeerFinder.Service.dll.config
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service\bin\Debug\BeerFinder.Service.dll
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service\bin\Debug\BeerFinder.Service.pdb
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service\obj\Debug\BeerFinder.Service.csprojResolveAssemblyReference.cache
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service\obj\Debug\BeerFinder.Service.csproj.CoreCompileInputs.cache
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service\obj\Debug\BeerFinder.Service.dll
+c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service\obj\Debug\BeerFinder.Service.pdb
