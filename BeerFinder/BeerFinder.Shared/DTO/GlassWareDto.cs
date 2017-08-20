@@ -9,8 +9,8 @@ namespace BeerFinder.Shared.DTO
 {
 	public class GlassWareDto: IDto
 	{
-		public int Id { get; set; }
+		public string Id { get; set; }
 		public string Name { get; set; }
-		public DateTime CreatedDate { get; set; }
+		public DateTime? CreatedDate { get; set; }
 	}
 }

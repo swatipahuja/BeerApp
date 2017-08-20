@@ -5,3 +5,24 @@ c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.S
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service.App\obj\Debug\BeerFinder.Service.App.csproj.CoreCompileInputs.cache
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service.App\obj\Debug\BeerFinder.Service.App.dll
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.Service.App\obj\Debug\BeerFinder.Service.App.pdb
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.Service.App.dll.config
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.Service.App.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.Service.App.pdb
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.BLL.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.BLL.Interfaces.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.Shared.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.DAL.Interfaces.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.DAL.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\System.Net.Http.Formatting.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\Newtonsoft.Json.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.BLL.Interfaces.pdb
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.BLL.pdb
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.Shared.pdb
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.DAL.Interfaces.pdb
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\BeerFinder.DAL.pdb
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\System.Net.Http.Formatting.xml
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\bin\Newtonsoft.Json.xml
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\obj\Debug\BeerFinder.Service.App.csprojResolveAssemblyReference.cache
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\obj\Debug\BeerFinder.Service.App.csproj.CoreCompileInputs.cache
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\obj\Debug\BeerFinder.Service.App.dll
+D:\BeerApp\BeerFinder\BeerFinder.Service.App\obj\Debug\BeerFinder.Service.App.pdb

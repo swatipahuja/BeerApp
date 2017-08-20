@@ -1,8 +1,0 @@
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\bin\Debug\Logger.dll
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\bin\Debug\Logger.pdb
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\bin\Debug\NLog.dll
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\bin\Debug\NLog.xml
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\obj\Debug\Logger.dll
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Logger\obj\Debug\Logger.pdb

@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
-using BeerFinder.Shared.DTO;
+﻿using System;
+using BeerFinder.Shared.RequestMsg;
+using BeerFinder.Shared.ResponseMsg;
 
 namespace BeerFinder.BLL.Interfaces
 {
-	public interface IBeerBLL:IBLL
+	public interface IBeerBLL : IBLL, IDisposable
 	{
-		List<BeerDto> GetBeerData(string queryString);
+		BeerResponseMsg GetBeerData(BeerRequestMsg requestMsg);
 	}
 }

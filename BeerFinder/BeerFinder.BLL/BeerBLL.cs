@@ -1,21 +1,43 @@
-﻿using System.Collections.Generic;
-using BeerFinder.BLL.Interfaces;
+﻿using BeerFinder.BLL.Interfaces;
 using BeerFinder.DAL;
 using BeerFinder.DAL.Interfaces;
 using BeerFinder.Shared.DTO;
+using BeerFinder.Shared.RequestMsg;
+using BeerFinder.Shared.ResponseMsg;
 
 namespace BeerFinder.BLL
 {
 	public class BeerBLL : BaseBLL, IBeerBLL
 	{
-		public List<BeerDto> GetBeerData(string queryString)
+		public BeerResponseMsg GetBeerData(BeerRequestMsg requestMsg)
 		{
-			List<BeerDto> result = new List<BeerDto>();
+			BeerResponseMsg result = new BeerResponseMsg();
 			using (IBeerDAL beerDAL = new BeerDAL())
 			{
-				result = beerDAL.GetBeerData(queryString);
+				result = beerDAL.GetBeerData(requestMsg);
 			}
+			result = PopulateFiltersData(result);
 			return result;
+		}
+
+		private BeerResponseMsg PopulateFiltersData(BeerResponseMsg data)
+		{
+			foreach (BeerDto item in data.Beers)
+			{
+				if (item.Categories != null)
+				{
+					data.Categories.Add(item.Categories);
+				}
+				if (item.GlassWare != null)
+				{
+					data.GlassWare.Add(item.GlassWare);
+				}
+				if (item.Style != null)
+				{
+					data.Styles.Add(item.Style);
+				}
+			}
+			return data;
 		}
 	}
 }

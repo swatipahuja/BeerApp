@@ -7,7 +7,7 @@ namespace BeerFinder.BLL
 	{
 		public virtual void Dispose()
 		{
-			throw new NotImplementedException();
+			
 		}
 	}
 }

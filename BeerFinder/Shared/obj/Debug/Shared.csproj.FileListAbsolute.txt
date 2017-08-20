@@ -1,6 +1,0 @@
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Shared\bin\Debug\Shared.dll
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Shared\bin\Debug\Shared.pdb
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Shared\obj\Debug\Shared.csprojResolveAssemblyReference.cache
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Shared\obj\Debug\Shared.dll
-c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\Shared\obj\Debug\Shared.pdb

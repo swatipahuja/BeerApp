@@ -8,3 +8,17 @@ c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.D
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.DAL\obj\Debug\BeerFinder.DAL.pdb
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.Shared.dll
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.Shared.pdb
+D:\BeerApp\BeerFinder\BeerFinder.DAL\obj\Debug\BeerFinder.DAL.csprojResolveAssemblyReference.cache
+D:\BeerApp\BeerFinder\BeerFinder.DAL\obj\Debug\BeerFinder.DAL.csproj.CoreCompileInputs.cache
+D:\BeerApp\BeerFinder\BeerFinder.DAL\obj\Debug\BeerFinder.DAL.dll
+D:\BeerApp\BeerFinder\BeerFinder.DAL\obj\Debug\BeerFinder.DAL.pdb
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.DAL.dll
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.DAL.pdb
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.DAL.Interfaces.dll
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.Shared.dll
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\Newtonsoft.Json.dll
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\System.Net.Http.Formatting.dll
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.DAL.Interfaces.pdb
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\BeerFinder.Shared.pdb
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\Newtonsoft.Json.xml
+D:\BeerApp\BeerFinder\BeerFinder.DAL\bin\Debug\System.Net.Http.Formatting.xml

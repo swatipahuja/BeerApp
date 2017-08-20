@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using BeerFinder.Shared.DTO;
+using BeerFinder.Shared.RequestMsg;
+using BeerFinder.Shared.ResponseMsg;
 
 namespace BeerFinder.DAL.Interfaces
 {
 	public interface IBeerDAL:IDAL, IDisposable
 	{
-		List<BeerDto> GetBeerData(string queryString);
+		BeerResponseMsg GetBeerData(BeerRequestMsg requestMsg);
 	}
 }

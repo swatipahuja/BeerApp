@@ -31,7 +31,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,8 +50,14 @@
     <Compile Include="DTO\GlassWareDto.cs" />
     <Compile Include="DTO\LabelDto.cs" />
     <Compile Include="DTO\StyleDto.cs" />
+    <Compile Include="Enum\SortDirection.cs" />
+    <Compile Include="Enum\SortField.cs" />
     <Compile Include="Interfaces\IDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestMsg\BeerRequestMsg.cs" />
+    <Compile Include="ResponseMsg\BeerResponseMsg.cs" />
+    <Compile Include="Utilities\BeerFinderUtilities.cs" />
+    <Compile Include="Utilities\HttpClientProvider.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

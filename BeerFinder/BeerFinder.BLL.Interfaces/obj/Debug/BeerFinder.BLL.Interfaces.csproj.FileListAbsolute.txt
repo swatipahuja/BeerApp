@@ -6,3 +6,11 @@ c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.B
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.pdb
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.Shared.dll
 c:\users\swati2499\documents\visual studio 2017\Projects\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.Shared.pdb
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.BLL.Interfaces.dll
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.BLL.Interfaces.pdb
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.Shared.dll
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\bin\Debug\BeerFinder.Shared.pdb
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.csprojResolveAssemblyReference.cache
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.csproj.CoreCompileInputs.cache
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.dll
+D:\BeerApp\BeerFinder\BeerFinder.BLL.Interfaces\obj\Debug\BeerFinder.BLL.Interfaces.pdb
