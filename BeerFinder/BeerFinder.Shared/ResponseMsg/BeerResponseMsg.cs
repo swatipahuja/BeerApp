@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
 using BeerFinder.Shared.DTO;
+using BeerFinder.Shared.Interfaces;
 
 namespace BeerFinder.Shared.ResponseMsg
 {
 	[DataContract]
-	public class BeerResponseMsg
+	public class BeerResponseMsg: IResponseMsg
 	{
 		[DataMember(Name = "currentPage")]
 		public int CurrentPage { get; set; }
@@ -26,12 +23,9 @@ namespace BeerFinder.Shared.ResponseMsg
 		public List<CategoryDto> Categories { get; set; } = new List<CategoryDto>();
 		[DataMember(Name = "styles")]
 		public List<StyleDto> Styles { get; set; } = new List<StyleDto>();
-		[DataMember(Name = "glassWare")]
-		public List<GlassWareDto> GlassWare { get; set; }
-
-		public BeerResponseMsg()
-		{
-			Beers = new List<BeerDto>();
-		}
+		[DataMember(Name = "glass")]
+		public List<GlasswareDto> Glass { get; set; } = new List<GlasswareDto>();
+		public string ErrorMessage { get; set; }
+	
 	}
 }

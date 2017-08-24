@@ -43,18 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTO\AdjunctDto.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="DTO\BeerDto.cs" />
     <Compile Include="DTO\BreweryDto.cs" />
     <Compile Include="DTO\CategoryDto.cs" />
-    <Compile Include="DTO\GlassWareDto.cs" />
+    <Compile Include="DTO\GlasswareDto.cs" />
     <Compile Include="DTO\LabelDto.cs" />
     <Compile Include="DTO\StyleDto.cs" />
     <Compile Include="Enum\SortDirection.cs" />
     <Compile Include="Enum\SortField.cs" />
     <Compile Include="Interfaces\IDto.cs" />
+    <Compile Include="Interfaces\IResponseMsg.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequestMsg\BeerRequestMsg.cs" />
+    <Compile Include="ResponseMsg\GlasswareResponseMsg.cs" />
+    <Compile Include="ResponseMsg\CategoryResponseMsg.cs" />
     <Compile Include="ResponseMsg\BeerResponseMsg.cs" />
     <Compile Include="Utilities\BeerFinderUtilities.cs" />
     <Compile Include="Utilities\HttpClientProvider.cs" />

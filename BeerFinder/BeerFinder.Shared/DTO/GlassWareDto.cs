@@ -1,16 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.Serialization;
 using BeerFinder.Shared.Interfaces;
 
 namespace BeerFinder.Shared.DTO
 {
-	public class GlassWareDto: IDto
+	[DataContract]
+	public class GlasswareDto: IDto
 	{
+		[DataMember(Name = "id")]
 		public string Id { get; set; }
+		[DataMember(Name = "name")]
 		public string Name { get; set; }
+		[DataMember(Name = "createDate")]
 		public DateTime? CreatedDate { get; set; }
 	}
 }

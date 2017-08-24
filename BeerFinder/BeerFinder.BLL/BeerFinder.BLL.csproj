@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseBLL.cs" />
+    <Compile Include="GlasswareBLL.cs" />
+    <Compile Include="CategoryBLL.cs" />
     <Compile Include="BeerBLL.cs" />
+    <Compile Include="BLFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +58,10 @@
     <ProjectReference Include="..\BeerFinder.DAL\BeerFinder.DAL.csproj">
       <Project>{4EFACBB3-38C3-4AB7-992F-481ABBF59DEF}</Project>
       <Name>BeerFinder.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeerFinder.Logger\BeerFinder.Logger.csproj">
+      <Project>{1146D55E-7E04-48CF-BB35-C477BD2515AA}</Project>
+      <Name>BeerFinder.Logger</Name>
     </ProjectReference>
     <ProjectReference Include="..\BeerFinder.Shared\BeerFinder.Shared.csproj">
       <Project>{DBC11A17-2B68-4AE0-A2C7-1C4DDCE274D3}</Project>

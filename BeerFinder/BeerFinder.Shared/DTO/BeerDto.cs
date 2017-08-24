@@ -34,7 +34,7 @@ namespace BeerFinder.Shared.DTO
 		public string FoodPairing { get; set; }
 
 		[DataMember(Name = "glass")]
-		public GlassWareDto Glass { get; set; }
+		public GlasswareDto Glass { get; set; }
 
 		[DataMember(Name = "style")]
 		public StyleDto Style { get; set; }
@@ -46,7 +46,7 @@ namespace BeerFinder.Shared.DTO
 		public float Ibu { get; set; }
 
 		[DataMember(Name = "isOrganic")]
-		public string IsOrganicString
+		public string IsOrganic
 		{
 			get { return _isBeerOrganicString; }
 			set
@@ -55,9 +55,8 @@ namespace BeerFinder.Shared.DTO
 				_isBeerOrganic = value == "Y";
 			}
 		}
-
 		[DataMember(Name = "labels")]
-		public LabelDto Labels { get; set; }
+		public LabelDto Labels { get; set; } 
 
 		[DataMember(Name = "servingTemperature")]
 		public string ServingTemperature { get; set; }
@@ -72,23 +71,14 @@ namespace BeerFinder.Shared.DTO
 		public DateTime? UpdateDate { get; set; }
 		[DataMember(Name = "categories")]
 		public CategoryDto Categories { get; set; }
-		[DataMember(Name = "glassWare")]
-		public GlassWareDto GlassWare { get; set; }
 		[DataMember(Name = "breweries")]
 		public List<BreweryDto> Breweries { get; set; }
-
-		#endregion
-
-		#region Public Properties
-		public bool IsOrganic
-		{
-			get { return _isBeerOrganic; }
-			set
-			{
-				_isBeerOrganic = value;
-				_isBeerOrganicString = _isBeerOrganic ? "Y" : "N";
-			}
-		}
+		[DataMember(Name = "glassWareId")]
+		public string GlassWareId { get; set; }
+		[DataMember(Name = "styleId")]
+		public string StyleId { get; set; }
+		[DataMember(Name = "categoryId")]
+		public string CategoryId { get; set; }
 		#endregion
 	}
 }

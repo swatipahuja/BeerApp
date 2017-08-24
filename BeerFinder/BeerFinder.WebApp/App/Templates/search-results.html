@@ -1,0 +1,65 @@
+<div ng-if="results.data.length > 0">
+    <div class="row">
+        <div class="pull-right col-md-3 col-md-offset-1">
+            <label ng-show="results.data.length>0" class="sort-by-options"><b>Sort by:</b>
+                <select ng-change="changedvalue()" id="option" ng-model="order">
+                    <option value="name">Name</option>
+                    <option selected="selected" value="abv">% ABV</option>
+                    <option selected="selected" value="style.ibuMax">IBU(High to Low)</option>
+                    <option selected="selected" value="style.ibuMin">IBU(Low to High)</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <h3>Filters</h3>
+
+            <div class="filter-container">
+                <label ng-show="results.data.length>0" class="sort-by-options">
+                    <b>CATEGORY</b>
+                    <div class="btn-group">
+                        <label class="filters" ng-class="{'active':chosenCategory==category.id}" ng-if="category.name !=''" ng-model="selectedCategory" uib-btn-radio="{category.name}"
+                               ng-click="selectedCategory(category)" ng-repeat="category in categories">
+                            {{category.name}}
+                        </label>
+                    </div>
+                </label>
+            </div>
+            <br/>
+
+            <div class="filter-container">
+                <label ng-show="results.data.length>0" class="sort-by-options"><b>GLASSWARE</b>
+                    <div class="btn-group">
+                        <label class="filters"  ng-class="{'active':chosenGlassware==glassware.id}" ng-if="glassware.name !=''" ng-model="selectedGlassware" uib-btn-radio="{glassware.name}"
+                               ng-click="selectedGlassware(glassware)" ng-repeat="glassware in glasswares">
+                            {{glassware.name}}
+                        </label>
+                    </div>
+                </label>
+            </div>
+            <br/>
+        </div>
+        <div class="col-md-10">
+            <div id="resultsTbl" class="table table-striped">
+                <div class="beer" ng-click="showDetails(item)" ng-repeat="item in results.data | orderBy:order">
+                    <div class="beer-image">
+                        <img ng-if="item.labels!=undefined" ng-src="{{item.labels.medium}}"/>
+                        <img ng-if="item.labels==undefined" ng-src="Build/Images/beer-default.png"/>
+                    </div>
+                    <div class="beer-detail">
+                        <span class="title">{{item.name}}</span>
+                        <span ng-if="item.style!=undefined" class="author">{{item.style.category.name}}</span>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <div paging page="0" page-size="50" total="results.totalResults" paging-action="changePage(page)"></div>
+    </div>
+</div>
+<div class="no-results" ng-if="results!='' && results.data == undefined">
+    <h3>No Results to display</h3>
+</div>

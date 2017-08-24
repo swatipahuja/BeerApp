@@ -48,14 +48,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDAL.cs" />
+    <Compile Include="GalsswareDAL.cs" />
+    <Compile Include="CategoryDAL.cs" />
     <Compile Include="BeerDAL.cs" />
+    <Compile Include="DALFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BeerFinder.DAL.Interfaces\BeerFinder.DAL.Interfaces.csproj">
       <Project>{520322dc-73a5-4a2c-8de0-e6dcc6b18560}</Project>
       <Name>BeerFinder.DAL.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeerFinder.Logger\BeerFinder.Logger.csproj">
+      <Project>{1146D55E-7E04-48CF-BB35-C477BD2515AA}</Project>
+      <Name>BeerFinder.Logger</Name>
     </ProjectReference>
     <ProjectReference Include="..\BeerFinder.Shared\BeerFinder.Shared.csproj">
       <Project>{DBC11A17-2B68-4AE0-A2C7-1C4DDCE274D3}</Project>

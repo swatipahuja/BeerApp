@@ -9,10 +9,10 @@ namespace BeerFinder.Shared.RequestMsg
 		[DataMember(Name = "searchString")]
 		public string SearchString { get; set; }
 		[DataMember(Name = "pageNumber")]
-		public int PageNumber { get; set; } = 1;
-		[DataMember(Name = "sortField")]
-		public SortField SortField { get; set; } =  SortField.Name;
-		[DataMember(Name = "sortDirection")]
-		public SortDirection SortDirection { get; set; } = SortDirection.Asc;
+		public string PageNumber { get; set; } = "1";
+		[DataMember(Name = "glasswareId")]
+		public string GlasswareId { get; set; }
+		[DataMember(Name = "categoryId")]
+		public string CategoryId { get; set; } 
 	}
 }

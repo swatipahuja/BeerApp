@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="IBeerBLL.cs" />
     <Compile Include="IBLL.cs" />
+    <Compile Include="IGlasswareBLL.cs" />
+    <Compile Include="ICategoryBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

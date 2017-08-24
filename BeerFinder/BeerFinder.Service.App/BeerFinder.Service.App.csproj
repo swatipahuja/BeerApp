@@ -44,6 +44,10 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -96,6 +100,10 @@
     <ProjectReference Include="..\BeerFinder.BLL\BeerFinder.BLL.csproj">
       <Project>{40DA5C32-24C7-4F07-A98F-79F5B56B3897}</Project>
       <Name>BeerFinder.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BeerFinder.DAL\BeerFinder.DAL.csproj">
+      <Project>{4EFACBB3-38C3-4AB7-992F-481ABBF59DEF}</Project>
+      <Name>BeerFinder.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\BeerFinder.Shared\BeerFinder.Shared.csproj">
       <Project>{DBC11A17-2B68-4AE0-A2C7-1C4DDCE274D3}</Project>

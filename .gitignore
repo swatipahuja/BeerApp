@@ -4,3 +4,17 @@
 
 /BeerFinder/packages
 /BeerFinder/.vs/config
+/BeerFinder/BeerFinder.DAL.Tests/bin/Debug
+/BeerFinder/BeerFinder.DAL.Tests/obj/Debug
+/BeerFinder/BeerFinder.Service.App/Logs
+
+/BeerFinder/node_modules/.bin
+/BeerFinder/node_modules
+/BeerFinder/BeerFinder.WebApp/.bin
+/BeerFinder/BeerFinder.WebApp/Build
+/BeerFinder/BeerFinder.WebApp/obj/Debug
+/BeerFinder/BeerFinder.WebApp/node_modules
+/.vs
+/BeerFinder/.vs
+/BeerFinder/BeerFinder/bin/Debug
+/BeerFinder/BeerFinder/obj/Debug

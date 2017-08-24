@@ -2,11 +2,8 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Configuration;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web;
 
 namespace BeerFinder.Shared.Utilities
@@ -19,7 +16,9 @@ namespace BeerFinder.Shared.Utilities
 		private static string _apiKey = ConfigurationManager.AppSettings["ApiKey"];
 		private static NameValueCollection _parameters = new NameValueCollection();
 
-
+		/// <summary>
+		/// Sets default parameters for http client
+		/// </summary>
 		private static void SetDefautParameters()
 		{
 			if (_parameters.Count > 0)
@@ -29,6 +28,9 @@ namespace BeerFinder.Shared.Utilities
 			_parameters.Add("key", _apiKey);
 		}
 
+		/// <summary>
+		/// Sets Default headers for the client
+		/// </summary>
 		private static void SetDefaultHeaders()
 		{
 			_client.DefaultRequestHeaders.Accept.Clear();
@@ -36,6 +38,9 @@ namespace BeerFinder.Shared.Utilities
 			_client.DefaultRequestHeaders.Accept.Add(jsonMediaType);
 		}
 
+		/// <summary>
+		/// Initializes the lient
+		/// </summary>
 		private static void InitClient()
 		{
 			_client = new HttpClient();
@@ -48,6 +53,9 @@ namespace BeerFinder.Shared.Utilities
 
 		#region Public Members
 
+		/// <summary>
+		/// Create single instance of http client
+		/// </summary>
 		public static HttpClient Client
 		{
 			get
@@ -60,7 +68,13 @@ namespace BeerFinder.Shared.Utilities
 			}
 		}
 
-		public static Uri BuildRequest(string[] segments, NameValueCollection extraParams = null)
+		/// <summary>
+		/// Create the request
+		/// </summary>
+		/// <param name="segments"></param>
+		/// <param name="extraParams"></param>
+		/// <returns></returns>
+		public static Uri CreateRequest(string[] segments, NameValueCollection extraParams = null)
 		{
 			InitClient();
 			UriBuilder uriBuilder = new UriBuilder(_baseAddr);
