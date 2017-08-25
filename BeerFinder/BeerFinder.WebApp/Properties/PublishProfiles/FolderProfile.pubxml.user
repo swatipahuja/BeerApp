@@ -43,7 +43,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/23/2017 11:20:28</publishTime>
     </File>
     <File Include="App/Javascript/Src/services/searchService.js">
-      <publishTime>08/22/2017 21:48:13</publishTime>
+      <publishTime>08/25/2017 16:13:50</publishTime>
     </File>
     <File Include="App/Templates/details.html">
       <publishTime>08/22/2017 22:36:01</publishTime>
@@ -58,46 +58,46 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/23/2017 11:17:30</publishTime>
     </File>
     <File Include="bin/BeerFinder.BLL.dll">
-      <publishTime>08/25/2017 12:04:04</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.BLL.Interfaces.dll">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.BLL.Interfaces.pdb">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.BLL.pdb">
-      <publishTime>08/25/2017 12:04:04</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.DAL.dll">
-      <publishTime>08/25/2017 12:04:04</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.DAL.Interfaces.dll">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.DAL.Interfaces.pdb">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.DAL.pdb">
-      <publishTime>08/25/2017 12:04:04</publishTime>
+      <publishTime>08/25/2017 16:49:04</publishTime>
     </File>
     <File Include="bin/BeerFinder.Logger.dll">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:03</publishTime>
     </File>
     <File Include="bin/BeerFinder.Logger.pdb">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:03</publishTime>
     </File>
     <File Include="bin/BeerFinder.Shared.dll">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:03</publishTime>
     </File>
     <File Include="bin/BeerFinder.Shared.pdb">
-      <publishTime>08/25/2017 12:04:03</publishTime>
+      <publishTime>08/25/2017 16:49:03</publishTime>
     </File>
     <File Include="bin/BeerFinder.WebApp.dll">
-      <publishTime>08/25/2017 12:25:11</publishTime>
+      <publishTime>08/25/2017 16:50:01</publishTime>
     </File>
     <File Include="bin/BeerFinder.WebApp.pdb">
-      <publishTime>08/25/2017 12:25:11</publishTime>
+      <publishTime>08/25/2017 16:50:01</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/05/2017 09:59:26</publishTime>
@@ -250,7 +250,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/20/2017 20:55:56</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/25/2017 12:25:11</publishTime>
+      <publishTime>08/25/2017 16:49:09</publishTime>
     </File>
   </ItemGroup>
 </Project>

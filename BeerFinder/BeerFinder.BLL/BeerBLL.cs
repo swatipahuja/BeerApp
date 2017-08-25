@@ -37,14 +37,14 @@ namespace BeerFinder.BLL
 				filteredData.AddRange(data.Beers.Where(b => b.CategoryId != null
 				&& b.CategoryId.Equals(requestMsg.CategoryId)).ToList());
 			}
-			if (filteredData.Count > 0)
+			if (string.IsNullOrEmpty(requestMsg.CategoryId) && string.IsNullOrEmpty(requestMsg.GlasswareId))
 			{
-				data.Beers = filteredData.OrderBy(b => b.Name).ToList();
-				UpdatePagingInfoForFilteredData(data, requestMsg);
+				string.IsNullOrEmpty(requestMsg.GlasswareId);
 			}
 			else
 			{
-				data.Beers = data.Beers.OrderBy(b => b.Name).ToList();
+				data.Beers = filteredData.OrderBy(b => b.Name).ToList();
+				UpdatePagingInfoForFilteredData(data, requestMsg);
 			}
 		}
 		/// <summary>
