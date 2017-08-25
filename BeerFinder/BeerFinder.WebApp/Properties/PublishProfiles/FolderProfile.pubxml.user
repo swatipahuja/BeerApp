@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\BeerApp\BeerFinder\BeerFinder.WebApp\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App/Content/css/styles.css">
+      <publishTime>08/22/2017 22:47:30</publishTime>
+    </File>
+    <File Include="App/Content/Images/beer-default.png">
+      <publishTime>08/20/2017 20:29:48</publishTime>
+    </File>
+    <File Include="App/Javascript/Libraries/Angular/angular-animate.js">
+      <publishTime>08/20/2017 20:28:52</publishTime>
+    </File>
+    <File Include="App/Javascript/Libraries/Angular/angular-route.js">
+      <publishTime>08/20/2017 20:28:52</publishTime>
+    </File>
+    <File Include="App/Javascript/Libraries/Angular/angular-ui-bootstrap.min.js">
+      <publishTime>08/20/2017 20:28:52</publishTime>
+    </File>
+    <File Include="App/Javascript/Libraries/Angular/angular.js">
+      <publishTime>08/20/2017 20:28:52</publishTime>
+    </File>
+    <File Include="App/Javascript/Libraries/paging.min.js">
+      <publishTime>08/20/2017 20:28:52</publishTime>
+    </File>
+    <File Include="App/Javascript/Src/app.js">
+      <publishTime>08/22/2017 20:03:18</publishTime>
+    </File>
+    <File Include="App/Javascript/Src/controllers/BaseSearchCtrl.js">
+      <publishTime>08/20/2017 20:27:13</publishTime>
+    </File>
+    <File Include="App/Javascript/Src/directives/search-input.js">
+      <publishTime>08/22/2017 20:05:10</publishTime>
+    </File>
+    <File Include="App/Javascript/Src/directives/search-results-web.js">
+      <publishTime>08/23/2017 11:20:28</publishTime>
+    </File>
+    <File Include="App/Javascript/Src/services/searchService.js">
+      <publishTime>08/22/2017 21:48:13</publishTime>
+    </File>
+    <File Include="App/Templates/details.html">
+      <publishTime>08/22/2017 22:36:01</publishTime>
+    </File>
+    <File Include="App/Templates/home.html">
+      <publishTime>08/21/2017 22:01:53</publishTime>
+    </File>
+    <File Include="App/Templates/search-input.html">
+      <publishTime>08/22/2017 20:04:08</publishTime>
+    </File>
+    <File Include="App/Templates/search-results.html">
+      <publishTime>08/23/2017 11:17:30</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.BLL.dll">
+      <publishTime>08/25/2017 12:04:04</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.BLL.Interfaces.dll">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.BLL.Interfaces.pdb">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.BLL.pdb">
+      <publishTime>08/25/2017 12:04:04</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.DAL.dll">
+      <publishTime>08/25/2017 12:04:04</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.DAL.Interfaces.dll">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.DAL.Interfaces.pdb">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.DAL.pdb">
+      <publishTime>08/25/2017 12:04:04</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.Logger.dll">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.Logger.pdb">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.Shared.dll">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.Shared.pdb">
+      <publishTime>08/25/2017 12:04:03</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.WebApp.dll">
+      <publishTime>08/25/2017 12:25:11</publishTime>
+    </File>
+    <File Include="bin/BeerFinder.WebApp.pdb">
+      <publishTime>08/25/2017 12:25:11</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/05/2017 09:59:26</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>08/08/2017 19:19:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>01/28/2015 04:02:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>01/28/2015 04:02:54</publishTime>
+    </File>
+    <File Include="gulpfile.js">
+      <publishTime>08/22/2017 20:13:59</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>08/21/2017 22:02:50</publishTime>
+    </File>
+    <File Include="npmPlaceholder.txt">
+      <publishTime>08/20/2017 20:49:23</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>08/20/2017 21:08:11</publishTime>
+    </File>
+    <File Include="README.md">
+      <publishTime>08/20/2017 20:31:25</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/20/2017 20:55:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/20/2017 20:55:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/affix.js">
+      <publishTime>08/20/2017 20:55:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/alert.js">
+      <publishTime>08/20/2017 20:55:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/button.js">
+      <publishTime>08/20/2017 20:55:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/carousel.js">
+      <publishTime>08/20/2017 20:55:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/collapse.js">
+      <publishTime>08/20/2017 20:55:57</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/dropdown.js">
+      <publishTime>08/20/2017 20:55:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/modal.js">
+      <publishTime>08/20/2017 20:55:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/popover.js">
+      <publishTime>08/20/2017 20:55:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/scrollspy.js">
+      <publishTime>08/20/2017 20:55:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/tab.js">
+      <publishTime>08/20/2017 20:55:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/tooltip.js">
+      <publishTime>08/20/2017 20:55:56</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap/transition.js">
+      <publishTime>08/20/2017 20:55:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/25/2017 12:25:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

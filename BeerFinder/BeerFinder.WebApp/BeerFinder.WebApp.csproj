@@ -82,6 +82,7 @@
     <None Include=".bin\node.cmd" />
     <None Include="packages.config" />
     <Content Include="README.md" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,0 +1,47 @@
+<div ng-if="modalData != undefined" class="beer-modal">
+    <div class="text-center modal__headline">
+        <h3 class="modal__name">{{modalData.name}}</h3>
+
+        <p class="beer__info">{{modalData.style.name}}</p>
+    </div>
+    <div class="row">
+        <div class="col-md-5 pull-left">
+            <p ng-if="modalData.glass != undefined" class="beer-detail">
+                <strong>Glass:</strong> {{modalData.glass.name}}
+            </p>
+
+            <p class="beer-detail">
+                <strong>Organic:</strong>
+                <span ng-if="modalData.isOrganic!='Y'">No</span>
+                <span ng-if="modalData.isOrganic=='Y'">Yes</span>
+            </p>
+
+            <p ng-if="modalData.style.category != undefined" class="beer-detail">
+                <strong>Category:</strong> {{modalData.style.category.name}}
+            </p>
+
+            <p ng-if="modalData.abv != undefined" class="beer-detail">
+                <strong>ABV(Alcohol By Volume):</strong> {{modalData.abv}}%
+            </p>
+
+			<p ng-if="modalData.breweries != undefined" class="beer-detail">
+				<strong>Brewery:</strong> {{modalData.breweries[0].nameShortDisplay}}
+				(<a href={{modalData.breweries[0].website}} target="_blank">{{modalData.breweries[0].website}}</a>)
+			</p>
+        </div>
+        <div class="col-md-5 pull-right">
+            <div class="beer-image">
+                <img ng-if="modalData.labels!=undefined" ng-src="{{modalData.labels.medium}}"/>
+                <img ng-if="modalData.labels==undefined" ng-src="Build/Images/beer-default.png"/>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="beer__info">{{modalData.style.description}}</p>
+</div>
+
+<div ng-show="modalData == undefined">
+    <div class="loading-wrapper">
+        <i class="animate-spin icon-spin1"></i>
+    </div>
+</div>
